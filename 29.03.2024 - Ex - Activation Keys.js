@@ -3,7 +3,6 @@ function activationKeys(input) {
 
     for (let command of input) {
         let newCommand = command.split('>>>');
-
         if (newCommand[0] === 'Slice') {
             let startIdx = Number(newCommand[1]);
             let endIdx = Number(newCommand[2]);
